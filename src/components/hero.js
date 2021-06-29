@@ -30,6 +30,7 @@ const Name = styled.h1`
   font-size: 80px;
   line-height: 1.1;
   margin: 0;
+  color: ${theme.colors.green};
   ${media.desktop`font-size: 70px;`};
   ${media.tablet`font-size: 60px;`};
   ${media.phablet`font-size: 50px;`};

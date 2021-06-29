@@ -24,10 +24,3 @@ When it comes to building productive relationships, I always refers to a quote b
 "Given eight hours to chop down a tree, he’d spend six sharpening his axe" He is adept with multiple tasking such as Leading, Content writing, Developing
 
 
-<!-- I'm an engineer who loves working on challenging problems, cracking them into simpler solutions. I build scalable backend applications, using state of the art technologies with security in mind.
-
-I am a big advocate of statecharts and, I love the reactive programming paradigms of rxjs.
-
-I graduated from [Kwame Nkrumah University of Science and Technology](https://www.knust.edu.gh/) with a bachelor's in Computer Engineering, and for the past 4+ years, I've been among several teams engineering the next big stuff.
-
-A glimpse of the things I'm experienced with: -->

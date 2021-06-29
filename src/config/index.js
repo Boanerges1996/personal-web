@@ -1,12 +1,12 @@
 module.exports = {
   siteTitle: 'Ayush | Computer Sciencer',
   siteDescription:
-    'Prince Odame is a smart computer engineer, building things to make the world a better place',
+    'Ayush Raj is a smart computer engineer, building things to make the world a better place',
   siteKeywords:
-    'Prince Odame, Prince, Odame, opodame, software engineer, backend, back-end engineer, web developer, python, nodejs, docker, microservices, ghana',
-  siteUrl: 'https://princeodame.com',
+    'Ayush Raj, Ayush, Raj, opRaj, software engineer, backend, back-end engineer, web developer, python, nodejs, docker, microservices, ghana',
+  siteUrl: 'https://AyushRaj.com',
   siteLanguage: 'en_US',
-  siteImage: 'https://princeodame.com/og.png',
+  siteImage: 'https://AyushRaj.com/og.png',
 
   // googleVerification: 'dUgjmQBI7tQOciwUQ16Q31rC6bPvMShtEKYuckNowQ',
 
@@ -24,11 +24,11 @@ module.exports = {
     },
     // {
     //   name: 'Codepen',
-    //   url: 'https://codepen.io/opodame/',
+    //   url: 'https://codepen.io/opRaj/',
     // },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/opodame/',
+      url: 'https://www.instagram.com/opRaj/',
     },
     {
       name: 'Twitter',
@@ -55,7 +55,7 @@ module.exports = {
     },
   ],
 
-  twitterHandle: '@opodame',
+  twitterHandle: '@opRaj',
   googleAnalyticsID: 'UA-127661885-1',
 
   headerHeight: 100,

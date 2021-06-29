@@ -7,4 +7,4 @@ contactText: 'Get In Touch'
 
 I'm Boston-based designer who create **clean abd modern**
 
-Currently shipping awesome features at [Blue Ocean Robotics](https://www.blue-ocean-robotics.com/) as a Software Engineer, ask me about it!
+Currently studying at  [Lovely Professional University](https://www.lpu.in/) as a Junior Computer Science and Engineering att Jalandhar.
