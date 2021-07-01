@@ -2,8 +2,7 @@ module.exports = {
   siteTitle: 'Ayush | Computer Sciencer',
   siteDescription:
     'Ayush Raj is a smart computer engineer, building things to make the world a better place',
-  siteKeywords:
-    'Ayush Raj, Ayush, Raj, opRaj, software engineer, backend, back-end engineer, web developer, python, nodejs, docker, microservices, ghana',
+  siteKeywords: 'Ayush Raj, Ayush, Raj, designer, content creator',
   siteUrl: 'https://AyushRaj.com',
   siteLanguage: 'en_US',
   siteImage: 'https://AyushRaj.com/og.png',
@@ -17,6 +16,10 @@ module.exports = {
     {
       name: 'Github',
       url: 'https://github.com/AyushSingh22',
+    },
+    {
+      name: 'Quora',
+      url: 'https://www.quora.com/profile/Ayush-Singh-3056?ch=10&share=8966c649&srid=4C7qm',
     },
     {
       name: 'Linkedin',
