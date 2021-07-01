@@ -20,7 +20,7 @@ const SocialContainer = styled.div`
   position: fixed;
   bottom: 0;
   left: 40px;
-  color: ${theme.colors.blue};
+  color: ${theme.colors.grey};
   ${media.desktop`left: 25px;`};
   ${media.tablet`display: none;`};
 `;
@@ -34,7 +34,7 @@ const SocialItemList = styled(Ul)`
     width: 1px;
     height: 90px;
     margin: 0 auto;
-    background-color: ${theme.colors.lightSlate};
+    background-color: ${theme.colors.grey};
   }
 `;
 const SocialItem = styled.li`

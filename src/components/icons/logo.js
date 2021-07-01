@@ -12,7 +12,7 @@ const IconLogo = () => (
           fontWeight="normal"
           letterSpacing="26.3500004">
           <tspan x="0" y="22">
-            Engineer
+            content creator
           </tspan>
         </text>
         <path
@@ -29,7 +29,7 @@ const IconLogo = () => (
         letterSpacing="10.4499998"
         fill="#1D658F">
         <tspan x="18" y="62">
-          opodame
+          ayushraj
         </tspan>
       </text>
       <path

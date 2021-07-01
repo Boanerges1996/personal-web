@@ -23,6 +23,7 @@ const EmailLinkWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: ${theme.colors.grey};
   position: relative;
   &:after {
     content: '';
@@ -30,7 +31,7 @@ const EmailLinkWrapper = styled.div`
     width: 1px;
     height: 90px;
     margin: 0 auto;
-    background-color: ${theme.colors.blue};
+    background-color: ${theme.colors.grey};
   }
 `;
 const EmailLink = styled(A)`
