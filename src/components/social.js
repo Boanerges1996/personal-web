@@ -3,7 +3,14 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
 import { socialMedia } from '../config';
 
-import { IconGithub, IconLinkedin, IconCodepen, IconInstagram, IconTwitter } from './icons';
+import {
+  IconGithub,
+  IconLinkedin,
+  IconCodepen,
+  IconInstagram,
+  IconTwitter,
+  IconQuora,
+} from './icons';
 
 import styled from 'styled-components';
 import { theme, media, A, Ul } from '../styles';
@@ -13,7 +20,7 @@ const SocialContainer = styled.div`
   position: fixed;
   bottom: 0;
   left: 40px;
-  color: ${theme.colors.lightSlate};
+  color: ${theme.colors.blue};
   ${media.desktop`left: 25px;`};
   ${media.tablet`display: none;`};
 `;
@@ -79,6 +86,8 @@ class Social extends Component {
                           <IconInstagram />
                         ) : name === 'Twitter' ? (
                           <IconTwitter />
+                        ) : name === 'Quora' ? (
+                          <IconQuora />
                         ) : (
                           <IconGithub />
                         )}
