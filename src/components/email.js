@@ -30,7 +30,7 @@ const EmailLinkWrapper = styled.div`
     width: 1px;
     height: 90px;
     margin: 0 auto;
-    background-color: ${theme.colors.lightSlate};
+    background-color: ${theme.colors.blue};
   }
 `;
 const EmailLink = styled(A)`

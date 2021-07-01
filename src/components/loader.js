@@ -121,7 +121,7 @@ class Loader extends Component {
                   fontWeight="normal"
                   letterSpacing="26.3500004">
                   <tspan x="0" y="22">
-                    Engineer
+                    Ayush
                   </tspan>
                 </text>
                 <path

@@ -1,4 +1,4 @@
-# Prince Odame - Personal Website
+# Ayush Raj - Personal Website
 
 My personal site built with [Gatsby](https://www.gatsbyjs.org/) and hosted with [Netlify](https://www.netlify.com/).
 
