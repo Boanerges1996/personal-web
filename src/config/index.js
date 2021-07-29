@@ -45,6 +45,10 @@ module.exports = {
       url: '#about',
     },
     {
+      name: 'My Goal',
+      url: '#goal',
+    },
+    {
       name: 'Experience',
       url: '#jobs',
     },

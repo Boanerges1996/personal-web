@@ -12,6 +12,7 @@ import Contact from '../components/contact';
 
 import styled from 'styled-components';
 import { mixins, Main } from '../styles';
+import Goal from '../components/goal';
 
 const MainContainer = styled(Main)`
   ${mixins.sidePadding};
@@ -22,6 +23,7 @@ const IndexPage = ({ data, location }) => (
   <Layout location={location}>
     <MainContainer id="content">
       <Hero data={data.hero.edges} />
+      <Goal data={data.about.edges} />
       <About data={data.about.edges} />
       <Jobs data={data.jobs.edges} />
       <Featured data={data.featured.edges} />
@@ -48,6 +50,24 @@ export const query = graphql`
             name
             subtitle
             contactText
+          }
+          html
+        }
+      }
+    }
+    goal: allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/goal/" } }) {
+      edges {
+        node {
+          frontmatter {
+            title
+            avatar {
+              childImageSharp {
+                fluid(maxWidth: 700, quality: 90, traceSVG: { color: "#FF9E64" }) {
+                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                }
+              }
+            }
+            skills
           }
           html
         }
